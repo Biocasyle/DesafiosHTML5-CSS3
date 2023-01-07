@@ -1,0 +1,47 @@
+body {
+    background-color: rgb(61, 54, 54);
+    display: flex;
+    justify-content: center;
+}
+h1 {
+    color:white;
+    font-size: 35pt;
+    text-align: center;
+    margin-bottom: 50px;
+}
+p{
+    color: white;
+    text-align: center;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    
+}
+ul{
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+li {
+    float: left;
+    margin:10px;
+}
+
+li:hover {
+    transform:scale(2);
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
